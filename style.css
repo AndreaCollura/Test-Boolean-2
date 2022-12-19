@@ -1,0 +1,118 @@
+body {
+    width: 1917px;
+    background-image: url('/img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* CONTENITORE CENTRALE */
+
+.main-contenitore {
+    width: 1200px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 25px;
+    margin: 100px auto;
+    position: relative;
+}
+
+/* INTESTAZIONE */
+
+header {
+    width: 1020px;
+    height: 200px;
+    position: relative;
+}
+
+
+.logo {
+    width: 200px;
+    position: absolute;
+    padding: 60px 50% 0 50%;
+}
+
+
+.logo-text > strong {
+    width: 1020px;
+    height: auto;
+    color: rgb(15, 197, 15);
+    position: absolute;
+    margin: 0 90px 0 90px;
+    padding: 160px 0 0 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.naviagation-bar {
+    box-sizing: border-box;
+    background-color: rgb(15, 197, 15);
+    margin: 0 90px 0 90px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.naviagation-bar > button {
+
+    cursor: pointer;
+}
+
+/* SELETTORE UTENTE */
+
+main {
+    color: white;
+    width: 400px;
+    height: 390px;
+    padding: 0 0 0 90px;
+    line-height: 9px;
+}
+
+
+main > section {
+    margin-bottom: 0;
+}
+
+
+.carica-1 {
+    width: 300px;
+    height: 30px;
+    background-color:  rgb(255, 195, 65);
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+
+.carica-2 {
+    width: 700px;
+    height: 30px;
+    background-color: rgb(31, 230, 13);
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+
+.carica-3 {
+    width: 200px;
+    height: 30px;
+    background-color: rgb(189, 54, 54);
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+/* Font */
+
+h2 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+p {
+    margin-bottom: 8px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 15px;
+}
+
+
+
+
